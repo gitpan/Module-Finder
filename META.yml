@@ -1,6 +1,6 @@
 ---
 name: Module-Finder
-version: v0.1.3
+version: v0.1.4
 author: []
 abstract: find and query modules in @INC and/or elsewhere
 license: perl
@@ -10,12 +10,13 @@ resources:
   license: http://dev.perl.org/licenses/
   repository: http://scratchcomputing.com/svn/Module-Finder/trunk
 requires:
+  Class::Accessor::Classy: v0.1.3
   Module::Build: 0.26
   Test::More: 0
 provides:
   Module::Finder:
     file: lib/Module/Finder.pm
-    version: v0.1.3
+    version: v0.1.4
   Module::Finder::Info:
     file: lib/Module/Finder.pm
 generated_by: Module::Build version 0.2808

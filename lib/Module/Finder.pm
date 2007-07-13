@@ -1,5 +1,5 @@
 package Module::Finder;
-$VERSION = v0.1.3;
+$VERSION = v0.1.4;
 
 use warnings;
 use strict;
@@ -13,6 +13,7 @@ BEGIN {
 package Module::Finder::Info;
 use File::Spec ();
 use constant {fs => 'File::Spec'};
+
 use Class::Accessor::Classy;
 with 'new';
 #with 'clone'; # todo for C::A::C ?
@@ -21,6 +22,7 @@ ro 'module_path'; # relative to search directory (part 2 of filename)
 ro 'inc_path';    # other part of filename
 ro 'module_name'; # My::Module::Name
 no  Class::Accessor::Classy;
+
 sub new {
   my $class = shift;
   my $self = $class->SUPER::new(@_);
@@ -68,7 +70,6 @@ with 'new';
 ro 'paths';
 ro 'name';
 no  Class::Accessor::Classy;
-
 
 =head2 new
 
