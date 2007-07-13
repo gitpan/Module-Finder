@@ -1,5 +1,5 @@
 package Module::Finder;
-$VERSION = eval{require version}?version::qv($_):$_ for(0.1.2);
+$VERSION = v0.1.3;
 
 use warnings;
 use strict;
