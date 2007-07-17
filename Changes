@@ -1,5 +1,9 @@
 Revision history for Module-Finder
 
+v0.1.5 2007-07-16
+
+  * include "educational" Makefile.PL (Fix your CPAN client!)
+
 v0.1.4 2007-07-13
 
   * get the dependencies right (thanks McMadd)

@@ -1,6 +1,6 @@
 ---
 name: Module-Finder
-version: v0.1.4
+version: v0.1.5
 author: []
 abstract: find and query modules in @INC and/or elsewhere
 license: perl
@@ -16,7 +16,7 @@ requires:
 provides:
   Module::Finder:
     file: lib/Module/Finder.pm
-    version: v0.1.4
+    version: v0.1.5
   Module::Finder::Info:
     file: lib/Module/Finder.pm
 generated_by: Module::Build version 0.2808

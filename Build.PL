@@ -7,7 +7,6 @@ my $build_class = 'Module::Build';
 my $builder = $build_class->new(
   module_name         => 'Module::Finder',
   license             => 'perl',
-  dist_version_from   => 'lib/Module/Finder.pm',
   requires => {
     'Class::Accessor::Classy' => 'v0.1.3',
     'Module::Build'           => 0.26,
